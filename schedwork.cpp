@@ -38,9 +38,9 @@ bool schedule(
     // Add your code below
 
 		map<int, int> mapShifts;
-		for(int i = 0; i < avail[0].size(); i++){
-			mapShifts[i] = 0;
-		}
+		// for(int i = 0; i < avail[0].size(); i++){
+		// 	mapShifts[i] = 0;
+		// }
 		sched.resize(avail.size());
 		for(int i = 0; i < sched.size(); i++){
 			sched[i].resize(dailyNeed);
